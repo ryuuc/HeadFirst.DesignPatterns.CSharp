@@ -3,9 +3,29 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30709.132
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "00.StrategyPattern", "00.StrategyPattern", "{2CD8EC86-0FA9-4479-BB11-21AA44319AF6}"
+	ProjectSection(SolutionItems) = preProject
+		00.StrategyPattern\README.md = 00.StrategyPattern\README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimUDuck", "00.StrategyPattern\SimUDuck\SimUDuck.csproj", "{B298EF56-846D-4946-99BF-3B05EF3DE507}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B298EF56-846D-4946-99BF-3B05EF3DE507}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B298EF56-846D-4946-99BF-3B05EF3DE507}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B298EF56-846D-4946-99BF-3B05EF3DE507}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B298EF56-846D-4946-99BF-3B05EF3DE507}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B298EF56-846D-4946-99BF-3B05EF3DE507} = {2CD8EC86-0FA9-4479-BB11-21AA44319AF6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {804FE7C7-18BC-49E4-9E3E-33493D1FDDD6}

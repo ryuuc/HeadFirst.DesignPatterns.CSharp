@@ -18,7 +18,7 @@ namespace SimUDuck
             model.Display();
             model.PerformFly();
             model.PerformQuack();
-            model.SetFlyBehavior(new FlyRocketPowered());
+            model.FlyBehavior = new FlyRocketPowered();
             model.PerformFly();
 
             Console.ReadKey();

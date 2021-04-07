@@ -5,12 +5,8 @@ namespace SimUDuck.Ducks
 {
     public abstract class Duck
     {
-        internal IFlyBehavior FlyBehavior;
-        internal IQuackBehavior QuackBehavior;
-
-        public void SetFlyBehavior(IFlyBehavior flyBehavior) => FlyBehavior = flyBehavior;
-        public void SetQuackBehavior(IQuackBehavior quackBehavior) => QuackBehavior = quackBehavior;
-
+        public IFlyBehavior FlyBehavior { get; set; }
+        public IQuackBehavior QuackBehavior { get; set; }
         public abstract void Display();
 
         public void PerformFly() => FlyBehavior?.Fly();

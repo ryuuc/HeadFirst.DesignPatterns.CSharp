@@ -8,14 +8,16 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "00.StrategyPattern", "00.St
 		00.StrategyPattern\README.md = 00.StrategyPattern\README.md
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimUDuck", "00.StrategyPattern\SimUDuck\SimUDuck.csproj", "{B298EF56-846D-4946-99BF-3B05EF3DE507}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimUDuck", "00.StrategyPattern\SimUDuck\SimUDuck.csproj", "{B298EF56-846D-4946-99BF-3B05EF3DE507}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01.ObserverPattern", "01.ObserverPattern", "{462F935C-3AFD-4A65-ADC3-6DC9FCC25F05}"
 	ProjectSection(SolutionItems) = preProject
-		README.md = README.md
+		01.ObserverPattern\README.md = 01.ObserverPattern\README.md
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherStation", "01.ObserverPattern\WeatherStation\WeatherStation.csproj", "{ED97E5B5-15F9-4BDC-81C4-12D129E65BA8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WeatherStation", "01.ObserverPattern\WeatherStation\WeatherStation.csproj", "{ED97E5B5-15F9-4BDC-81C4-12D129E65BA8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02.DecoratorPattern", "02.DecoratorPattern", "{CCED1DE1-51C4-4547-901A-E7CC37ED515E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

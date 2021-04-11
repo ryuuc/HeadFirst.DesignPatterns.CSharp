@@ -9,7 +9,6 @@ namespace Starbuzz
             Beverage beverage = new Espresso();
             Console.WriteLine($"{beverage.Description} $ {beverage.Cost()}");
 
-
             Beverage beverage2 = new HouseBlend();
             beverage2 = new Mocha(beverage2);
             beverage2 = new Soy(beverage2);

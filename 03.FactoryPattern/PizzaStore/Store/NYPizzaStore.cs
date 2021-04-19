@@ -1,6 +1,6 @@
-﻿using PizzaStore.Ingredient;
+﻿using PizzaFactory.Ingredient;
 
-namespace PizzaStore.Store
+namespace PizzaFactory.Store
 {
     public class NYPizzaStore : PizzaStore
     {

@@ -1,6 +1,6 @@
-﻿using PizzaStore.Ingredient.Base;
+﻿using PizzaFactory.Ingredient.Base;
 
-namespace PizzaStore.Ingredient
+namespace PizzaFactory.Ingredient
 {
     public interface IPizzaIngredientFactory
     {

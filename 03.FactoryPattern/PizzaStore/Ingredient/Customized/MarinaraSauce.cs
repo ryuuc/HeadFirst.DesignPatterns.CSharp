@@ -1,6 +1,6 @@
-﻿using PizzaStore.Ingredient.Base;
+﻿using PizzaFactory.Ingredient.Base;
 
-namespace PizzaStore.Ingredient.Customized
+namespace PizzaFactory.Ingredient.Customized
 {
     public class MarinaraSauce : Sauce
     {

@@ -1,4 +1,4 @@
-﻿namespace PizzaStore.Store
+﻿namespace PizzaFactory.Store
 {
     public abstract class PizzaStore
     {

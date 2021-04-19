@@ -26,7 +26,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Starbuzz", "02.DecoratorPat
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03.FactoryPattern", "03.FactoryPattern", "{9377DDCF-31F8-4D3C-AD8D-E682816D127E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PizzaStore", "03.FactoryPattern\PizzaStore\PizzaStore.csproj", "{E1EAD327-B613-4B02-B511-C7BFDE38B236}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PizzaFactory", "03.FactoryPattern\PizzaStore\PizzaFactory.csproj", "{E1EAD327-B613-4B02-B511-C7BFDE38B236}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

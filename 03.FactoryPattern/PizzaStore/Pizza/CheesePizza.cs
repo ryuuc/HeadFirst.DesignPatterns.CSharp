@@ -1,7 +1,7 @@
 ﻿using System;
-using PizzaStore.Ingredient;
+using PizzaFactory.Ingredient;
 
-namespace PizzaStore
+namespace PizzaFactory
 {
     public class CheesePizza : Pizza
     {

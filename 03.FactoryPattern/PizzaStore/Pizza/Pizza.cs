@@ -1,8 +1,8 @@
 ﻿using System;
 
-using PizzaStore.Ingredient.Base;
+using PizzaFactory.Ingredient.Base;
 
-namespace PizzaStore
+namespace PizzaFactory
 {
     public abstract class Pizza
     {

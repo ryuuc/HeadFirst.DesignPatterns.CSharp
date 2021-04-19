@@ -1,7 +1,7 @@
-﻿using PizzaStore.Ingredient.Base;
-using PizzaStore.Ingredient.Customized;
+﻿using PizzaFactory.Ingredient.Base;
+using PizzaFactory.Ingredient.Customized;
 
-namespace PizzaStore.Ingredient
+namespace PizzaFactory.Ingredient
 {
     public class NYPizzaIngredientFactory : IPizzaIngredientFactory
     {

@@ -1,4 +1,4 @@
-﻿namespace PizzaStore.Ingredient.Base
+﻿namespace PizzaFactory.Ingredient.Base
 {
     public class Veggies
     {

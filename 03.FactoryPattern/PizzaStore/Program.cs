@@ -14,6 +14,9 @@ namespace PizzaFactory
             Console.WriteLine($"Ethan ordered a {pizza.Name}");
 
             Console.ReadKey();
+
+
+            Console.WriteLine("Commit No.1");
         }
     }
 }

@@ -18,6 +18,7 @@ namespace PizzaFactory
 
             Console.WriteLine("Commit No.1");
             Console.WriteLine("Commit No.2");
+            Console.WriteLine("Commit No.3");
         }
     }
 }

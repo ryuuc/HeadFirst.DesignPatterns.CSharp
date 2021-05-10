@@ -5,7 +5,7 @@ namespace WeatherStation
 {
     public class WeatherData : ISubject
     {
-        private List<IObserver> _observers;
+        private readonly List<IObserver> _observers;
         public float Temperature { get; private set; }
         public float Humidity { get; private set; }
         public float Pressure { get; private set; }

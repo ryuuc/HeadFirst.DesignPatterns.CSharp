@@ -22,6 +22,16 @@ namespace SimUDuck
             model.PerformFly();
 
             Console.ReadKey();
+
+            #region 2021-05-10 20:04
+            //I'm a real Mallard duck.
+            //I'm flying!!
+            //Quack
+            //I'm a model duck.
+            //I can't fly.
+            //Quack
+            //I'm flying with a rocket!
+            #endregion
         }
     }
 }
